@@ -48,4 +48,38 @@ def owners_midpoint(x):
     """
     low, high = x.split(' - ')
     return (int(low) + int(high)) / 2
-        
+    
+def parse_list(x):
+    if pd.isna(x):
+        return []
+    
+    try:
+        return ast.literal_eval(x)
+    except:
+        return []
+    
+def language_bucket(n):
+    if n == 1:
+        return '1'
+    elif n <= 5:
+        return '2-5'
+    elif n <= 10:
+        return '6-10'
+    elif n <= 20:
+        return '11-20'
+    else:
+        return '20+'
+    
+def achievement_group(x):
+    if x == 0:
+        return '0'
+    elif x <= 10:
+        return '1-10'
+    elif x <= 25:
+        return '11-25'
+    elif x <= 50:
+        return '26-50'
+    elif x <= 100:
+        return '51-100'
+    else:
+        return '100+'
