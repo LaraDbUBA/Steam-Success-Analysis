@@ -4,6 +4,10 @@ This project explores thousands of Steam games to identify the factors associate
 Success is multidimensional. A game can sell well, retain players, or receive outstanding reviews. This project explores the factors associated with each dimension of success on Steam.
 
 ---
+## Live Dashboard
+
+ https://steam-success-analysis.streamlit.app
+---
 ## Project Goal
 
 The objective of this project is to explore which game characteristics are associated with commercial success, player engagement, and player satisfaction on Steam.
