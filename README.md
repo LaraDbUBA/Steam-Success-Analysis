@@ -5,8 +5,7 @@ Success is multidimensional. A game can sell well, retain players, or receive ou
 
 ---
 ## Live Dashboard
-
- https://steam-success-analysis.streamlit.app
+https://steam-success-analysis.streamlit.app
 ---
 ## Project Goal
 
